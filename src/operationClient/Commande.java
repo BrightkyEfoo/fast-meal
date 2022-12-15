@@ -2,9 +2,9 @@ package operationClient;
 
 import java.util.Date;
 import Adresse;
-import Gestion employers.Livreur;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 import gestionClient.Client;
+import gestionEmployers.Livreur;
 import gestionPayement.Facture;
 
 @objid ("de401708-fb85-4a68-a466-05c037175367")

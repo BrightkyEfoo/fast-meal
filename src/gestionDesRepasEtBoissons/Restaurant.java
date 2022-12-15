@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 import Adresse;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import contrat_embauche;
 import gestionClient.Client;
 
 @objid ("ad5d04d2-8327-423c-966d-4de4d553c1a3")
@@ -35,6 +36,9 @@ public class Restaurant {
 
     @objid ("d5db927b-7355-42d2-97fd-d945f7325404")
     private List<Boisson> boissons = new ArrayList<Boisson> ();
+
+    @objid ("aa8daba8-5ccf-4bda-aea9-f4ed71b2070c")
+    private List<contrat_embauche> contrats = new ArrayList<contrat_embauche> ();
 
     @objid ("264c72bf-beb3-4c7e-86a0-c6b45b6185d2")
     String getHeure_overture() {
@@ -112,6 +116,18 @@ public class Restaurant {
     void setMenus(List<Menu> value) {
         // Automatically generated method. Please delete this comment before entering specific code.
         this.menus = value;
+    }
+
+    @objid ("919e5ad4-b062-41ac-83e9-3083b1f0c811")
+    List<contrat_embauche> getContrats() {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        return this.contrats;
+    }
+
+    @objid ("1c4fb118-08b3-4356-9a59-690d0bdd2034")
+    void setContrats(List<contrat_embauche> value) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.contrats = value;
     }
 
 }

@@ -1,7 +1,7 @@
 package gestionPayement;
 
-import Gestion employers.Employer;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import gestionEmployers.Employer;
 
 @objid ("c008e2a1-924e-4324-bf61-777b9b4570cf")
 public class Payement {

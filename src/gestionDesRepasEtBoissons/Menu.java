@@ -88,4 +88,10 @@ public class Menu {
         this.service = value;
     }
 
+    @objid ("7867ce79-8820-4e5c-a09c-7481d277296b")
+    void setPlats(List<Plat> value) {
+        // Automatically generated method. Please delete this comment before entering specific code.
+        this.plats = value;
+    }
+
 }

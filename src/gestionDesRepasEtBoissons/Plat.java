@@ -1,6 +1,7 @@
 package gestionDesRepasEtBoissons;
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import gestionEmployers.webmaster;
 
 @objid ("22a95825-fe02-444d-86d7-986bb4b5adc6")
 public class Plat {
@@ -18,6 +19,9 @@ public class Plat {
 
     @objid ("47d107b0-ea39-4c24-8b57-9be9b042363f")
     private float prix;
+
+    @objid ("8d613c86-5aed-4110-9758-06b4c91828e2")
+    public webmaster webmaster;
 
     @objid ("a7e877b4-8f39-4020-97c9-82bda876a365")
     int getId() {
