@@ -94,4 +94,8 @@ public class Client extends Personne {
         this.livraisons = value;
     }
 
+    @objid ("a2cd6250-1510-446b-846e-37e95a188b31")
+    protected void finalize() {
+    }
+
 }

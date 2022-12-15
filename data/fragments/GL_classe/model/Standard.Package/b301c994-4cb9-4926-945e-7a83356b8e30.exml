@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gestion employers" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gestionEmployers" version="4">
   <OBJECT>
-    <ID name="Gestion employers" mc="Standard.Package" uid="b301c994-4cb9-4926-945e-7a83356b8e30"/>
+    <ID name="gestionEmployers" mc="Standard.Package" uid="b301c994-4cb9-4926-945e-7a83356b8e30"/>
     <PID name="Modèle" mc="Standard.Package" uid="f37b9982-255a-4d2b-8f8a-68588b5d429f"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Gestion employers]]></ATT>
+      <ATT name="Name"><![CDATA[gestionEmployers]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -32,7 +32,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="gestion Client" mc="Standard.Package" uid="5b1107b9-b8e1-4abd-98cc-0ba42b5246b6"/>
+              <ID name="gestionClient" mc="Standard.Package" uid="5b1107b9-b8e1-4abd-98cc-0ba42b5246b6"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
